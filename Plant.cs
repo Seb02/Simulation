@@ -13,6 +13,7 @@ namespace Simulation
         {
             base.Update();
             NewPlant();
+            SeeAround();
         }
         public void NewPlant() {
             Random rd = new Random();
@@ -42,6 +43,19 @@ namespace Simulation
 
             }
         }
+        public override void SeeAround()
+        { 
+            base.SeeAround(); 
+            foreach(SimulationObject obj in objectsAround)
+            {
+                if (obj is OrganicWaste)
+                {
+                    Energy += 5;
+                    Sim.Del(obj);
+                }
+            }
+        }
+
     }
 }
 

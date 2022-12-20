@@ -43,18 +43,19 @@ namespace Simulation
 
         }
         public List<SimulationObject> objectsAround;
-        public void SeeAround()
+        public virtual void SeeAround()
         {
             
             objectsAround = new List<SimulationObject>();
-            
+            objectsAround.Clear();
 
             foreach (SimulationObject obj in Sim.SendList())
             { 
-                if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || ((visionRadius > X - obj.X && visionRadius > obj.Y - Y)))
+                if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y)|| (visionRadius > X - obj.X && visionRadius > Y - obj.Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y))
                 {
-                    if (obj is Plant)
-                        { objectsAround.Add(obj); }
+                    
+                     objectsAround.Add(obj); 
+
                     
                 }
 
