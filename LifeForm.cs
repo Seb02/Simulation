@@ -51,7 +51,8 @@ namespace Simulation
 
             foreach (SimulationObject obj in Sim.SendList())
             { 
-                if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y)|| (visionRadius > X - obj.X && visionRadius > Y - obj.Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y))
+                //if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y)|| (visionRadius > X - obj.X && visionRadius > Y - obj.Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y))
+                if (visionRadius > Math.Abs(obj.X-X) && visionRadius > Math.Abs(obj.Y-Y))
                 {
                     
                      objectsAround.Add(obj); 
