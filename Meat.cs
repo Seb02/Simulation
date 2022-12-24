@@ -3,7 +3,7 @@ namespace Simulation
 {
     public class Meat : SimulationObject
     {
-        public Meat(double x, double y, Simulation simulation, double Life) : base(Colors.Red, x, y, simulation)
+        public Meat(double x, double y, Simulation simulation, double Life = 25) : base(Colors.Red, x, y, simulation)
         {
 
             this.Life = Life;
@@ -24,6 +24,15 @@ namespace Simulation
 
 
 
+        }
+        public void MeatToOrganic()
+        {
+            if (Life < 1) {
+                OrganicWaste waste = new OrganicWaste(X, Y, Sim);
+                Sim.Add(waste);
+                Sim.Del(this);
+
+            }
         }
 
     }

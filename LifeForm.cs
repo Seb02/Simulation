@@ -72,7 +72,7 @@ namespace Simulation
             objectsToInteract.Clear();
             foreach (SimulationObject obj in Sim.SendList())
             {
-                if ((contactRadius > obj.X - X && contactRadius > obj.Y - Y) || (contactRadius > X - obj.X && contactRadius > obj.Y - Y) || (contactRadius > X - obj.X && contactRadius > Y - obj.Y) || (contactRadius > X - obj.X && contactRadius > obj.Y - Y))
+                if (contactRadius > Math.Abs(obj.X - X) && contactRadius > Math.Abs(obj.Y - Y))
                 {
                     objectsToInteract.Add(obj);
                 }

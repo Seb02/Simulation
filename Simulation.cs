@@ -27,11 +27,19 @@ namespace Simulation
 
                 objects.Add(new Herbivore(rd.Next(5, 955), rd.Next(5, 455), rd.Next(1, 2), this));
 
-                //objects.Add(new Plant(rd.Next(5, 955), rd.Next(5, 455), this));
+                objects.Add(new Plant(rd.Next(5, 955), rd.Next(5, 455), this));
 
             
             }
-            objects.Add(new Plant(500, 250, this));
+            for (int i = 0; i < rd.Next(20, 40); i++)
+            {
+
+
+                objects.Add(new Plant(rd.Next(5, 955), rd.Next(5, 455), this, Life: rd.Next(5, 15)));
+
+
+            }
+
         }
 
         public void Update()
