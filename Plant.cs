@@ -44,10 +44,11 @@ namespace Simulation
 
             }
         }
-        public override void SeeAround()
-        { 
-            base.SeeAround(); 
-            foreach(SimulationObject obj in objectsAround)
+        public void EatOrganic ()
+        {
+            
+            
+            foreach(SimulationObject obj in LifePub.SeeAround())
             {
                 if (obj is OrganicWaste)
                 {

@@ -8,11 +8,17 @@ namespace Simulation
     {
         public Carnivore(double x, double y, int gender, Simulation simulation,  int visionRadius = 40, int contactRadius = 6, double Energy = 15, double Life = 60, int movementWay = 0, int movementDuration = 0, int pregnancyTime = 0) : base(Colors.Brown, x, y,  gender, simulation, visionRadius, contactRadius, Energy, Life, movementWay, movementDuration, pregnancyTime) { }
 
-
-        public override void SeeAround()
+        public override void Update()
         {
-            base.SeeAround();
-            foreach (SimulationObject obj in objectsAround)
+            base.Update();
+            SeePlant();
+            Eat();
+        }
+
+        public void SeeFood()
+        {
+            
+            foreach (SimulationObject obj in LifePub.SeeAround())
             {
                 if (obj is Herbivore)
                 {
@@ -26,10 +32,10 @@ namespace Simulation
                 }
             }
         }
-        public override void InterractAround()
+        public void EatFood()
         {
-            base.InterractAround();
-            foreach(SimulationObject obj in objectsAround)
+           
+            foreach(SimulationObject obj in LifePub.InteractAround())
             {
                 if(obj is Herbivore)
                 {

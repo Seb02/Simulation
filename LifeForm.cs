@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Java.Util;
+using System;
 using System.Security.Cryptography.X509Certificates;
 
 namespace Simulation
@@ -43,41 +44,41 @@ namespace Simulation
 
         }
         public List<SimulationObject> objectsAround;
-        public virtual void SeeAround()
+        public List<SimulationObject> SeeAround()
         {
-            
-            objectsAround = new List<SimulationObject>();
             objectsAround.Clear();
-
             foreach (SimulationObject obj in Sim.SendList())
-            { 
+            {
                 //if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y)|| (visionRadius > X - obj.X && visionRadius > Y - obj.Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y))
-                if (visionRadius > Math.Abs(obj.X-X) && visionRadius > Math.Abs(obj.Y-Y))
+                if (visionRadius > Math.Abs(obj.X - X) && visionRadius > Math.Abs(obj.Y - Y))
                 {
-                    
-                     objectsAround.Add(obj); 
 
-                    
+                    objectsAround.Add(obj);
+
+
                 }
 
             }
-
-            
-
+            return objectsAround;
         }
+        
         public List<SimulationObject> objectsToInteract;
-        public virtual void InterractAround()
+       public List<SimulationObject> InteractAround()
         {
-            objectsToInteract = new List<SimulationObject>();
             objectsToInteract.Clear();
             foreach (SimulationObject obj in Sim.SendList())
             {
+                //if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y)|| (visionRadius > X - obj.X && visionRadius > Y - obj.Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y))
                 if (contactRadius > Math.Abs(obj.X - X) && contactRadius > Math.Abs(obj.Y - Y))
                 {
-                    objectsToInteract.Add(obj);
-                }
-            }
 
+                    objectsToInteract.Add(obj);
+
+
+                }
+
+            }
+            return objectsToInteract;
         }
     }
 }

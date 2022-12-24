@@ -51,8 +51,7 @@ namespace Simulation
             movementDuration -= 1;
             
             Toilet();
-            SeeAround();
-            InterractAround();
+            
 
             
          }
@@ -146,12 +145,81 @@ namespace Simulation
 
             }
         }
-    public void MakeNewBaby()
+    public void SeePartner()
         {
+            foreach (SimulationObject obj in LifePub.SeeAround())
+            {
+                if (this is Herbivore && obj is Herbivore)
+                {
+                    if(gender != (obj as Animal).gender)
+                    {
+                        X = obj.X; 
+                        Y = obj.Y;
+                    }
+                }
+                if (this is Carnivore && obj is Carnivore)
+                {
+                    if (gender != (obj as Animal).gender)
+                    {
+                        X = obj.X;
+                        Y = obj.Y;
+                    }
+                }
+            }
+            
             
         }
-        
-        
+    public void MakeNewBaby()
+        {
+            Random rd = new Random();
+            if (pregnancyTime > 1)
+            {
+                pregnancyTime -= 1;
+            }
+            if (pregnancyTime == 0)
+            {
+                foreach (SimulationObject obj in LifePub.InteractAround())
+                {
+                    if (this is Herbivore && obj is Herbivore)
+                    {
+                        if (gender == 1)
+                        {
+                            pregnancyTime = 8;
+                        }
+                        else
+                        {
+                            (obj as Animal).pregnancyTime = 8;
+                        }
+                    }
+                    if (this is Carnivore && obj is Carnivore)
+                    {
+                        if (gender == 1)
+                        {
+                            pregnancyTime = 8;
+                        }
+                        else
+                        {
+                            (obj as Animal).pregnancyTime = 8;
+                        }
+                    }
+                }
+            }
+            if (pregnancyTime == 1) {
+                if (this is Herbivore) {
+                    Herbivore baby = new Herbivore(X, Y, rd.Next(1, 2), Sim);
+                    Sim.Add(baby); 
+                }
+                if (this is Carnivore)
+                {
+                    Carnivore baby = new Carnivore(X, Y, rd.Next(1, 2), Sim);
+                    Sim.Add(baby);
+                }
+                pregnancyTime = 0;
+            }
+            
+        }
+
     }
+    
 }
 
