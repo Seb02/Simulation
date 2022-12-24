@@ -4,7 +4,7 @@ namespace Simulation
 
 	public class Herbivore : Animal
 	{
-		public Herbivore(double x, double y, Simulation simulation, int visionRadius = 10, int contactRadius = 6, double Energy = 5, double Life = 40) : base(Colors.Blue, x, y, simulation, visionRadius, contactRadius, Energy, Life) { }
+		public Herbivore(double x, double y, int gender, Simulation simulation, int visionRadius = 10, int contactRadius = 6, double Energy = 5, double Life = 40, int movementWay = 0, int pregnancyTime = 0) : base(Colors.Blue, x, y, gender, simulation, visionRadius, contactRadius, Energy, Life, movementWay, pregnancyTime) { }
 
         public override void SeeAround()
         {

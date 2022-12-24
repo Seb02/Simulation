@@ -23,9 +23,9 @@ namespace Simulation
             {
 
 
-                objects.Add(new Carnivore(rd.Next(5, 955), rd.Next(5, 455), this));
+                objects.Add(new Carnivore(rd.Next(5, 955), rd.Next(5, 455), rd.Next(1, 2), this));
 
-                objects.Add(new Herbivore(rd.Next(5, 955), rd.Next(5, 455), this));
+                objects.Add(new Herbivore(rd.Next(5, 955), rd.Next(5, 455), rd.Next(1, 2), this));
 
                 objects.Add(new Plant(rd.Next(5, 955), rd.Next(5, 455), this));
 

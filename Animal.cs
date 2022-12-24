@@ -3,9 +3,15 @@
 namespace Simulation
 {
     public abstract class Animal : LifeForm
-    {
+    {   public int movementWay;
+        public int gender;
+        public int pregnancyTime;
+
         
-        public Animal(Color color, double x, double y, Simulation simulation, int visionRadius, int contactRadius, double Energy, double Life) : base(color, x, y, simulation, visionRadius, contactRadius, Energy, Life) { 
+        public Animal(Color color, double x, double y, int gender, Simulation simulation, int visionRadius, int contactRadius, double Energy, double Life, int movementWay,  int pregnancyTime) : base(color, x, y, simulation, visionRadius, contactRadius, Energy, Life) { 
+            this.movementWay = movementWay;
+            this.gender = gender;
+            this.pregnancyTime = pregnancyTime;
         
         }
 
@@ -14,7 +20,8 @@ namespace Simulation
             base.Update();
             Random rd = new Random();
             
-
+            //définir un sens de mouvement
+            
             if (X < 5)
             {
                 if (Y < 5)
