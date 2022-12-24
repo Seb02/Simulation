@@ -11,8 +11,8 @@ namespace Simulation
         public override void Update()
         {
             base.Update();
-            SeePlant();
-            Eat();
+            SeeFood();
+            EatFood();
         }
 
         public void SeeFood()

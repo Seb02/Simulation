@@ -1,11 +1,13 @@
-﻿using Java.Util;
+﻿
 using System;
-using System.Security.Cryptography.X509Certificates;
+
 
 namespace Simulation
 {
     public abstract class LifeForm : SimulationObject
     {
+        LifeForm lifeForm;
+        public LifeForm LifePub { get { return lifeForm; } }
         public LifeForm(Color color, double x, double y, Simulation simulation, int visionRadius, int contactRadius, double Energy, double Life) : base(color, x, y, simulation)
         {
             this.Energy = Energy;
@@ -63,7 +65,7 @@ namespace Simulation
         }
         
         public List<SimulationObject> objectsToInteract;
-       public List<SimulationObject> InteractAround()
+        public List<SimulationObject> InteractAround()
         {
             objectsToInteract.Clear();
             foreach (SimulationObject obj in Sim.SendList())

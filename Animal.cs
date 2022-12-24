@@ -51,6 +51,8 @@ namespace Simulation
             movementDuration -= 1;
             
             Toilet();
+            SeePartner();
+            MakeNewBaby();
             
 
             

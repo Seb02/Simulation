@@ -45,9 +45,7 @@ namespace Simulation
             }
         }
         public void EatOrganic ()
-        {
-            
-            
+        {            
             foreach(SimulationObject obj in LifePub.SeeAround())
             {
                 if (obj is OrganicWaste)
