@@ -81,14 +81,21 @@ namespace Simulation
 
 
             }
+            Toilet();
+
             
          }
-    public void SeeObject()
-        {
-
-        }
+    
     public void Toilet()
         {
+            Random rd = new Random();
+            
+            if (rd.Next(0, 20) == 3)
+            {
+                
+                OrganicWaste poop = new OrganicWaste(X , Y , Sim);
+                Sim.Add(poop);
+            }
 
         }
         public override void GetEnergy()
