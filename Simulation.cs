@@ -9,6 +9,7 @@ namespace Simulation
         public List<SimulationObject> objects;
         public List<SimulationObject> addNext;
         public List<SimulationObject> sendList;
+        public List<LifeForm> sendLifeFrom;
         
        
         public Simulation()
@@ -72,6 +73,17 @@ namespace Simulation
         public List<SimulationObject> SendList()
         {
             return objects;
+        }
+        public List<LifeForm> SendLifeForm()
+        {
+            foreach(SimulationObject obj in objects)
+            {
+                if (obj is LifeForm){
+                    sendLifeFrom.Add(obj as LifeForm);
+                }
+
+            }
+            return sendLifeFrom;
         }
        
         

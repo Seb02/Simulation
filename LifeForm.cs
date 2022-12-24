@@ -10,12 +10,12 @@ namespace Simulation
             this.Energy = Energy;
             this.Life = Life;
             this.visionRadius = visionRadius;
-            this.cocntactRaidus = contactRadius;
+            this.contactRadius = contactRadius;
         }
         public double Energy; // on risque de passer à côté de energy = 0
         public double Life;
         public int visionRadius;
-        public int cocntactRaidus;
+        public int contactRadius;
         public override void Update()
         {
             LooseEnergy();
@@ -59,6 +59,22 @@ namespace Simulation
                     
                 }
 
+            }
+
+            
+
+        }
+        public List<SimulationObject> objectsToInteract;
+        public virtual void InterractAround()
+        {
+            objectsToInteract = new List<SimulationObject>();
+            objectsToInteract.Clear();
+            foreach (SimulationObject obj in Sim.SendList())
+            {
+                if ((contactRadius > obj.X - X && contactRadius > obj.Y - Y) || (contactRadius > X - obj.X && contactRadius > obj.Y - Y) || (contactRadius > X - obj.X && contactRadius > Y - obj.Y) || (contactRadius > X - obj.X && contactRadius > obj.Y - Y))
+                {
+                    objectsToInteract.Add(obj);
+                }
             }
 
         }

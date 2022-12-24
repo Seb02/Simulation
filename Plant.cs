@@ -18,7 +18,7 @@ namespace Simulation
         public void NewPlant() {
             Random rd = new Random();
             //pour ne pas créer de plante à chaque appel:
-            if(rd.Next(0,40) == 3)
+            if(rd.Next(0,35) == 3)
             {
                 //Simulation.objects.Add(new Plant(x + rd.Next(-5, 5), y + rd.Next(-5, 5)));
                 Plant baby = new Plant(X + rd.Next(-visionRadius, visionRadius), Y + rd.Next(- visionRadius, visionRadius), Sim);
