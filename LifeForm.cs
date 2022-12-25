@@ -45,42 +45,6 @@ namespace Simulation
             }
 
         }
-        public List<SimulationObject> objectsAround;
-        public List<SimulationObject> SeeAround()
-        {
-            objectsAround.Clear();
-            foreach (SimulationObject obj in Sim.SendList())
-            {
-                //if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y)|| (visionRadius > X - obj.X && visionRadius > Y - obj.Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y))
-                if (visionRadius > Math.Abs(obj.X - X) && visionRadius > Math.Abs(obj.Y - Y))
-                {
-
-                    objectsAround.Add(obj);
-
-
-                }
-
-            }
-            return objectsAround;
-        }
         
-        public List<SimulationObject> objectsToInteract;
-        public List<SimulationObject> InteractAround()
-        {
-            objectsToInteract.Clear();
-            foreach (SimulationObject obj in Sim.SendList())
-            {
-                //if ((visionRadius > obj.X - X && visionRadius > obj.Y - Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y)|| (visionRadius > X - obj.X && visionRadius > Y - obj.Y) || (visionRadius > X - obj.X && visionRadius > obj.Y - Y))
-                if (contactRadius > Math.Abs(obj.X - X) && contactRadius > Math.Abs(obj.Y - Y))
-                {
-
-                    objectsToInteract.Add(obj);
-
-
-                }
-
-            }
-            return objectsToInteract;
-        }
     }
 }

@@ -18,7 +18,7 @@ namespace Simulation
         public void SeeFood()
         {
             
-            foreach (SimulationObject obj in LifePub.SeeAround())
+            foreach (SimulationObject obj in Sim.SeeAround(visionRadius, X, Y))
             {
                 if (obj is Herbivore)
                 {
@@ -35,7 +35,7 @@ namespace Simulation
         public void EatFood()
         {
            
-            foreach(SimulationObject obj in LifePub.InteractAround())
+            foreach(SimulationObject obj in Sim.InteractAround(contactRadius, X, Y))
             {
                 if(obj is Herbivore)
                 {

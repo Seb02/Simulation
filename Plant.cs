@@ -14,7 +14,7 @@ namespace Simulation
         {
             base.Update();
             NewPlant();
-            SeeAround();
+            EatOrganic();
         }
         public void NewPlant() {
             Random rd = new Random();
@@ -46,7 +46,7 @@ namespace Simulation
         }
         public void EatOrganic ()
         {            
-            foreach(SimulationObject obj in LifePub.SeeAround())
+            foreach(SimulationObject obj in Sim.SeeAround(visionRadius, X, Y))
             {
                 if (obj is OrganicWaste)
                 {

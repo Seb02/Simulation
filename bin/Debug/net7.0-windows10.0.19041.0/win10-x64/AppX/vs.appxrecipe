@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-24T22:45:17.264</Modified>
+      <Modified>2022-12-25T00:05:02.420</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-24T22:45:15.887</Modified>
+      <Modified>2022-12-25T00:05:01.578</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.runtimeconfig.json">
       <PackagePath>Simulation.runtimeconfig.json</PackagePath>
-      <Modified>2022-12-20T10:15:51.869</Modified>
+      <Modified>2022-12-24T23:03:47.215</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.dll">
       <PackagePath>Simulation.dll</PackagePath>
-      <Modified>2022-12-24T22:45:14.242</Modified>
+      <Modified>2022-12-25T00:05:00.058</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Simulation.exe</PackagePath>
-      <Modified>2022-12-24T22:45:14.329</Modified>
+      <Modified>2022-12-25T00:05:00.269</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.win-x64\7.0.0\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -908,7 +908,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.deps.json">
       <PackagePath>Simulation.deps.json</PackagePath>
-      <Modified>2022-12-24T22:45:16.941</Modified>
+      <Modified>2022-12-25T00:05:02.255</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.49\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -928,23 +928,23 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.120</Modified>
+      <Modified>2022-12-24T23:03:43.899</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.141</Modified>
+      <Modified>2022-12-24T23:03:43.918</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.166</Modified>
+      <Modified>2022-12-24T23:03:43.942</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.204</Modified>
+      <Modified>2022-12-24T23:03:43.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.345</Modified>
+      <Modified>2022-12-24T23:03:44.117</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
@@ -956,207 +956,207 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
-      <Modified>2022-12-20T10:15:47.438</Modified>
+      <Modified>2022-12-24T23:03:44.204</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.837</Modified>
+      <Modified>2022-12-24T23:03:44.560</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.853</Modified>
+      <Modified>2022-12-24T23:03:44.574</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.869</Modified>
+      <Modified>2022-12-24T23:03:44.588</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.889</Modified>
+      <Modified>2022-12-24T23:03:44.608</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.964</Modified>
+      <Modified>2022-12-24T23:03:44.680</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.586</Modified>
+      <Modified>2022-12-24T23:03:44.324</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.592</Modified>
+      <Modified>2022-12-24T23:03:44.329</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.616</Modified>
+      <Modified>2022-12-24T23:03:44.351</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.599</Modified>
+      <Modified>2022-12-24T23:03:44.334</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.606</Modified>
+      <Modified>2022-12-24T23:03:44.340</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.547</Modified>
+      <Modified>2022-12-24T23:03:44.288</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.555</Modified>
+      <Modified>2022-12-24T23:03:44.294</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.580</Modified>
+      <Modified>2022-12-24T23:03:44.319</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.561</Modified>
+      <Modified>2022-12-24T23:03:44.300</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.567</Modified>
+      <Modified>2022-12-24T23:03:44.305</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.463</Modified>
+      <Modified>2022-12-24T23:03:44.216</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.470</Modified>
+      <Modified>2022-12-24T23:03:44.222</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.478</Modified>
+      <Modified>2022-12-24T23:03:44.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.488</Modified>
+      <Modified>2022-12-24T23:03:44.237</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.498</Modified>
+      <Modified>2022-12-24T23:03:44.247</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.503</Modified>
+      <Modified>2022-12-24T23:03:44.253</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.510</Modified>
+      <Modified>2022-12-24T23:03:44.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.539</Modified>
+      <Modified>2022-12-24T23:03:44.282</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.517</Modified>
+      <Modified>2022-12-24T23:03:44.265</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.524</Modified>
+      <Modified>2022-12-24T23:03:44.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.690</Modified>
+      <Modified>2022-12-24T23:03:44.424</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.698</Modified>
+      <Modified>2022-12-24T23:03:44.431</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.706</Modified>
+      <Modified>2022-12-24T23:03:44.439</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.721</Modified>
+      <Modified>2022-12-24T23:03:44.453</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.741</Modified>
+      <Modified>2022-12-24T23:03:44.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.655</Modified>
+      <Modified>2022-12-24T23:03:44.388</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.662</Modified>
+      <Modified>2022-12-24T23:03:44.395</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.667</Modified>
+      <Modified>2022-12-24T23:03:44.401</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.674</Modified>
+      <Modified>2022-12-24T23:03:44.408</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.684</Modified>
+      <Modified>2022-12-24T23:03:44.418</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.623</Modified>
+      <Modified>2022-12-24T23:03:44.357</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.629</Modified>
+      <Modified>2022-12-24T23:03:44.363</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.636</Modified>
+      <Modified>2022-12-24T23:03:44.368</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.642</Modified>
+      <Modified>2022-12-24T23:03:44.374</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.650</Modified>
+      <Modified>2022-12-24T23:03:44.382</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.751</Modified>
+      <Modified>2022-12-24T23:03:44.479</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.760</Modified>
+      <Modified>2022-12-24T23:03:44.489</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.772</Modified>
+      <Modified>2022-12-24T23:03:44.499</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.787</Modified>
+      <Modified>2022-12-24T23:03:44.514</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.825</Modified>
+      <Modified>2022-12-24T23:03:44.548</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.497</Modified>
+      <Modified>2022-12-24T23:03:44.271</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.517</Modified>
+      <Modified>2022-12-24T23:03:44.285</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.541</Modified>
+      <Modified>2022-12-24T23:03:44.309</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.574</Modified>
+      <Modified>2022-12-24T23:03:44.337</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
-      <Modified>2022-12-20T10:15:47.642</Modified>
+      <Modified>2022-12-24T23:03:44.404</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

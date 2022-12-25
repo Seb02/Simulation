@@ -149,25 +149,26 @@ namespace Simulation
         }
     public void SeePartner()
         {
-            foreach (SimulationObject obj in LifePub.SeeAround())
-            {
-                if (this is Herbivore && obj is Herbivore)
+            
+                foreach (SimulationObject obj in Sim.SeeAround(visionRadius, X, Y))
                 {
-                    if(gender != (obj as Animal).gender)
+                    if (this is Herbivore && obj is Herbivore)
                     {
-                        X = obj.X; 
-                        Y = obj.Y;
+                        if(gender != (obj as Animal).gender)
+                        {
+                            X = obj.X; 
+                            Y = obj.Y;
+                        }
+                    }
+                    if (this is Carnivore && obj is Carnivore)
+                    {
+                        if (gender != (obj as Animal).gender)
+                        {
+                            X = obj.X;
+                            Y = obj.Y;
+                        }
                     }
                 }
-                if (this is Carnivore && obj is Carnivore)
-                {
-                    if (gender != (obj as Animal).gender)
-                    {
-                        X = obj.X;
-                        Y = obj.Y;
-                    }
-                }
-            }
             
             
         }
@@ -180,28 +181,28 @@ namespace Simulation
             }
             if (pregnancyTime == 0)
             {
-                foreach (SimulationObject obj in LifePub.InteractAround())
+                foreach (SimulationObject obj in Sim.InteractAround(contactRadius, X, Y))
                 {
                     if (this is Herbivore && obj is Herbivore)
                     {
                         if (gender == 1)
                         {
-                            pregnancyTime = 8;
+                            pregnancyTime = 40;
                         }
                         else
                         {
-                            (obj as Animal).pregnancyTime = 8;
+                            (obj as Animal).pregnancyTime = 40;
                         }
                     }
                     if (this is Carnivore && obj is Carnivore)
                     {
                         if (gender == 1)
                         {
-                            pregnancyTime = 8;
+                            pregnancyTime = 40;
                         }
                         else
                         {
-                            (obj as Animal).pregnancyTime = 8;
+                            (obj as Animal).pregnancyTime = 40;
                         }
                     }
                 }
