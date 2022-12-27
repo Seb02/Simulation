@@ -2,6 +2,10 @@
 Ce projet s'inscrit dans le cours de programmation orientée objet de 3e bachelier de l'ECAM 
 
 Plus d'informations sur ce projet dans [Projet 2022-Ecosystème](https://quentin.lurkin.xyz/courses/poo/projet2022/index.html)
+
+Réalisé par Sebastien Bokken (20034) et Diego de Radiguès (20342)
+
+
 ## Contenu du répositoire
 
 * Un fichier *Simulation.cs* contenant la classe "Simulation" qui modélise la simulation dans laquelle évoluent les différents types d'objets (carnivores, herbivores, plantes). La classe implémente l'interface ["IDrawable"](https://learn.microsoft.com/en-us/previous-versions/windows/xna/bb197416(v=xnagamestudio.42))
@@ -17,7 +21,7 @@ Plus d'informations sur ce projet dans [Projet 2022-Ecosystème](https://quentin
 * Un fichier *Animal.cs* contenant une classe abstraite appelée "Animal" qui hérite de la classe "LifeForm". La classe "Animal" définit plusieurs méthodes et propriétés pour modéliser un animal dans la simulation.
 
 
-* Un fichier *Plant.cs* contenant une classe abstraite appelée "Plant" qui hérite de la classe "LifeForm". La classe "Plant" définit plusieurs méthodes et propriétés pour modéliser un plante dans la simulation.
+* Un fichier *Plant.cs* contenant une classe appelée "Plant" qui hérite de la classe "LifeForm". La classe "Plant" définit plusieurs méthodes et propriétés pour modéliser un plante dans la simulation.
 
 * Un fichier *Carnivore.cs* contenant la classe "Carnivore" qui hérite de la classe "Animal" et qui modélise un animal carnivore dans la simulation.
 
@@ -73,6 +77,9 @@ Les règles qui régissent la simulation sont les suivantes :
 
 ## Diagramme de classe
 
+![Capture d’écran (332)](https://user-images.githubusercontent.com/99732004/209677324-91d21633-3f76-4846-a9dc-55a2c94a52e4.png)
+
+
 ## Diagramme de séquence 
 
 ## Description de deux principes SOLID
@@ -91,3 +98,7 @@ namespace Simulation
         }
     }
 }
+
+
+
+
