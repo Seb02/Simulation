@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2022-12-25T00:05:02.420</Modified>
+      <Modified>2022-12-27T10:17:20.791</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2022-12-25T00:05:01.578</Modified>
+      <Modified>2022-12-27T10:17:19.263</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.runtimeconfig.json">
       <PackagePath>Simulation.runtimeconfig.json</PackagePath>
@@ -44,11 +44,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.dll">
       <PackagePath>Simulation.dll</PackagePath>
-      <Modified>2022-12-25T00:05:00.058</Modified>
+      <Modified>2022-12-27T10:17:17.109</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>Simulation.exe</PackagePath>
-      <Modified>2022-12-25T00:05:00.269</Modified>
+      <Modified>2022-12-27T10:17:17.207</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.NETCore.App.Runtime.win-x64\7.0.0\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -908,7 +908,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.deps.json">
       <PackagePath>Simulation.deps.json</PackagePath>
-      <Modified>2022-12-25T00:05:02.255</Modified>
+      <Modified>2022-12-27T10:17:20.472</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.49\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

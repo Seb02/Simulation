@@ -209,12 +209,12 @@ namespace Simulation
             }
             if (pregnancyTime == 1) {
                 if (this is Herbivore) {
-                    Herbivore baby = new Herbivore(X, Y, rd.Next(1, 2), Sim);
+                    Herbivore baby = new Turtle(X, Y, rd.Next(1, 2), Sim);
                     Sim.Add(baby); 
                 }
                 if (this is Carnivore)
                 {
-                    Carnivore baby = new Carnivore(X, Y, rd.Next(1, 2), Sim);
+                    Carnivore baby = new Dog(X, Y, rd.Next(1, 2), Sim);
                     Sim.Add(baby);
                 }
                 pregnancyTime = 0;
