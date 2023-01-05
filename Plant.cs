@@ -5,7 +5,7 @@ namespace Simulation
     {
 
         
-        public Plant(double x, double y, Simulation simulation, int visionRadius = 5, int contactRadius = 10, double Energy = 2, double Life = 10) : base(Colors.Green, x, y, simulation, visionRadius, contactRadius, Energy, Life) {
+        public Plant(double x, double y, Simulation simulation, int visionRadius = 30, int contactRadius = 50, double Energy = 2, double Life = 10) : base(Colors.Green, x, y, simulation, visionRadius, contactRadius, Energy, Life) {
             
         }
         
@@ -22,7 +22,7 @@ namespace Simulation
             if(rd.Next(0,30) == 3)
             {
                 //Simulation.objects.Add(new Plant(x + rd.Next(-5, 5), y + rd.Next(-5, 5)));
-                Plant baby = new Plant(X + rd.Next(-visionRadius, visionRadius), Y + rd.Next(- visionRadius, visionRadius), Sim);
+                Plant baby = new Plant(X + rd.Next(-contactRadius, contactRadius), Y + rd.Next(- contactRadius, contactRadius), Sim);
                 Sim.Add(baby);
             }
              

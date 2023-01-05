@@ -6,8 +6,7 @@ namespace Simulation
 {
     public abstract class LifeForm : SimulationObject
     {
-        LifeForm lifeForm;
-        public LifeForm LifePub { get { return lifeForm; } }
+        
         public LifeForm(Color color, double x, double y, Simulation simulation, int visionRadius, int contactRadius, double Energy, double Life) : base(color, x, y, simulation)
         {
             this.Energy = Energy;
