@@ -11,5 +11,4 @@ namespace Simulation
             base.Update();
         }
     }
-    
 }
