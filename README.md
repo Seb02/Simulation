@@ -85,7 +85,7 @@ Les règles qui régissent la simulation sont les suivantes :
 ## Description de deux principes SOLID
 
 1. Single Responsibility Principle : Une classe ne doit avoir qu'une seule et unique responsabilité.
-chaque classe ou module a une fonction unique et spécifique, nous évitons donc d'inclure des responsabilités différentes dans la même classe en décomposant les classes en parties plus petites, chacune ayant une responsabilité unique. 
+chaque classe ou module a une fonction unique et spécifique, nous évitons donc d'inclure des responsabilités différentes dans la même classe en décomposant les classes en parties plus petites, chacune ayant une responsabilité unique.  Chaque méthode ne traite que les informations qui sont requises pour assurer son rôle, et les méthodes ont, dans la mesure du possible, été divisées pour ne pas remplir plusieurs rôles simultanément.
 
 2. Open/Closed Principle : Les entités doivent être ouvertes à l'extension et fermées à la modification. Il est en effet aisé de créer des classes représentant de nouvelles espèces qui héritent de "Carnivore", "Herbivore" ou "Plant" sans pour autant modifier une entité existante. Nous pouvons par exemple créer une classe "tigre" qui hérite de "Carnivore". Le tigre aura un "visionRadius" de 12, un "contacRadius" de 5 une "Energy" de 18 et une "Life" de 25.
 
