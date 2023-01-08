@@ -30,13 +30,13 @@
     <AppXManifest Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-01-05T13:11:27.025</Modified>
+      <Modified>2023-01-08T11:16:16.282</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-01-05T13:11:25.612</Modified>
+      <Modified>2023-01-08T11:16:09.649</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.runtimeconfig.json">
       <PackagePath>Simulation.runtimeconfig.json</PackagePath>
@@ -908,7 +908,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\sebas\source\repos\Simulation\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\Simulation.deps.json">
       <PackagePath>Simulation.deps.json</PackagePath>
-      <Modified>2023-01-05T13:11:26.728</Modified>
+      <Modified>2023-01-08T11:16:15.993</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.49\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
