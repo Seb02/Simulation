@@ -76,11 +76,13 @@ Les règles qui régissent la simulation sont les suivantes :
 * Et toujours pour les plantes, la zone de semis est la zone dans laquelle de nouvelles plantes peuvent apparaître autour d'une plante existante.
 
 ## Diagramme de classe
+![Capture d’écran (334)](https://user-images.githubusercontent.com/99732004/211203578-6240dc31-3a8e-4ad7-b2b6-b9ebed2532c7.png)
 
-![Capture d’écran (332)](https://user-images.githubusercontent.com/99732004/209677324-91d21633-3f76-4846-a9dc-55a2c94a52e4.png)
 
 
 ## Diagramme de séquence 
+![Sequence](https://user-images.githubusercontent.com/99732004/211203596-815fa201-2c71-4be5-b614-32e62f41f852.png)
+
 
 ## Description de deux principes SOLID
 
@@ -89,8 +91,9 @@ chaque classe ou module a une fonction unique et spécifique, nous évitons donc
 
 2. Open/Closed Principle : Les entités doivent être ouvertes à l'extension et fermées à la modification. Il est en effet aisé de créer des classes représentant de nouvelles espèces qui héritent de "Carnivore", "Herbivore" ou "Plant" sans pour autant modifier une entité existante. Nous pouvons par exemple créer une classe "tigre" qui hérite de "Carnivore". Le tigre aura un "visionRadius" de 12, un "contacRadius" de 5 une "Energy" de 18 et une "Life" de 25.
 
-namespace Simulation
-{
+namespace Simulation {
+
+
     public class Tigre : Carnivore
     {
         public Tigre(double x, double y, Simulation simulation) : base(x, y, simulation, visionRadius: 12, contactRadius: 5, Energy: 18, Life: 25)
