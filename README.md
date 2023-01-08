@@ -76,32 +76,32 @@ Les règles qui régissent la simulation sont les suivantes :
 * Et toujours pour les plantes, la zone de semis est la zone dans laquelle de nouvelles plantes peuvent apparaître autour d'une plante existante.
 
 ## Diagramme de classe
-![Capture d’écran (334)](https://user-images.githubusercontent.com/99732004/211203578-6240dc31-3a8e-4ad7-b2b6-b9ebed2532c7.png)
+![Class](https://user-images.githubusercontent.com/99732004/211204014-4006f704-0e7f-406b-a9c1-512f2506a40f.png)
 
 
 
 ## Diagramme de séquence 
-![Sequence](https://user-images.githubusercontent.com/99732004/211203596-815fa201-2c71-4be5-b614-32e62f41f852.png)
+![Sequence](https://user-images.githubusercontent.com/99732004/211203928-1dfed6f7-daba-4684-8a35-c58511d289a1.png)
 
 
 ## Description de deux principes SOLID
+
 
 1. Single Responsibility Principle : Une classe ne doit avoir qu'une seule et unique responsabilité.
 chaque classe ou module a une fonction unique et spécifique, nous évitons donc d'inclure des responsabilités différentes dans la même classe en décomposant les classes en parties plus petites, chacune ayant une responsabilité unique.  Chaque méthode ne traite que les informations qui sont requises pour assurer son rôle, et les méthodes ont, dans la mesure du possible, été divisées pour ne pas remplir plusieurs rôles simultanément.
 
 2. Open/Closed Principle : Les entités doivent être ouvertes à l'extension et fermées à la modification. Il est en effet aisé de créer des classes représentant de nouvelles espèces qui héritent de "Carnivore", "Herbivore" ou "Plant" sans pour autant modifier une entité existante. Nous pouvons par exemple créer une classe "tigre" qui hérite de "Carnivore". Le tigre aura un "visionRadius" de 12, un "contacRadius" de 5 une "Energy" de 18 et une "Life" de 25.
 
-namespace Simulation {
+
+    namespace Simulation {
 
 
-    public class Tigre : Carnivore
-    {
-        public Tigre(double x, double y, Simulation simulation) : base(x, y, simulation, visionRadius: 12, contactRadius: 5, Energy: 18, Life: 25)
+        public class Tigre : Carnivore
         {
+            public Tigre(double x, double y, Simulation simulation) : base(x, y, simulation, visionRadius: 12, contactRadius: 5, Energy: 18, Life: 25)
+            {
+            }
         }
     }
-}
-
-
 
 
